@@ -1,0 +1,77 @@
+.nav_wrapper{
+    display: flex;
+    height: 90px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    z-index: 999999999;
+    .main_wrapper{
+        width: 95vw;
+        height: 60%;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.316);
+        backdrop-filter: blur(10px);
+        overflow: hidden;
+        display: flex;
+        padding: 0 10px;
+        align-items: center;
+        justify-content: space-between;
+        /* border: 1px solid #ffffff15; */
+        .logo_wraper{
+            color: #ffffff;
+            background-color: #212121;
+            width: 40px;
+            border-radius: 7px;
+            display: flex;
+            align-items: center;
+            height: 20px;
+            padding: 10px;
+            justify-content: center;
+            
+        }
+        .search_wrapper{
+            width: 350px;
+            height: 34px;
+            display: flex;
+            gap: 10px;
+            border-radius: 8px;
+            overflow: hidden;
+            .searchQuery{
+                display: flex;
+                background-color: #212121;
+                align-items: center;
+                justify-content: center;
+                padding: 0 10px 0 0 ;
+                border-radius: 7px;
+                overflow: hidden;
+
+                input{
+                    background-color: transparent;
+                    color: #ffffff;
+                    height: 100%;
+                    padding: 0 10px;
+                    border: none;
+                    width: 100%;
+                    border-radius: 7px;
+                }
+                input:focus{
+                    outline: none;
+                }
+            }
+            .favourate{
+                cursor: pointer;
+                display: flex;
+                gap: 5px;
+                border-radius: 7px;
+                width: 150px;
+                height: 100%;
+                background-color: #212121;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}
