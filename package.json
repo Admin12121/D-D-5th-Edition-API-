@@ -1,9 +1,12 @@
 {
+  "homepage": "https://Admin12121.github.io/D-D-5th-Edition-API-",
   "name": "drd",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
