@@ -45,7 +45,4 @@ export default {
  npm run dev
 ```
 ## Demo 
-
-```bash
-https://admin12121.github.io/D-D-5th-Edition-API-/
-```
+[liveDemo](https://admin12121.github.io/D-D-5th-Edition-API-/)
