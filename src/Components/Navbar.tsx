@@ -8,7 +8,7 @@ interface NavbarProps {
     handleSearchInputChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
     clearSearch: () => void;
   }
-const Navbar: React.FC<NavbarProps> = ({ toggleFavorites, searchQuery, handleSearchInputChange, clearSearch }) => {
+const Navbar: React.FC<NavbarProps> = ({ toggleFavorites, searchQuery, handleSearchInputChange}) => {
   return (
     <>
     <div className="nav_wrapper ">
